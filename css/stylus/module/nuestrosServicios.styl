@@ -1,0 +1,62 @@
+.nuestrosServicios
+	wrapped()
+	height 100vh
+	width 100%
+	background $purple
+	padding-top 100px
+
+	
+	h1
+		color $white
+		text-transform uppercase 
+	
+	h2
+		color $orange
+		text-transform uppercase 
+
+	p
+		color $white
+		padding-right 38px 
+	img
+		display block
+		
+	+below($mobile)
+		text-align center
+		width 100%
+		height 100%
+
+		
+		img
+			margin 0 auto
+		
+		p
+			width 100% !important
+			text-align center
+			padding 0 20px 
+		
+		h2
+			width 100% 
+			text-align center
+	
+.grid2x2
+	display flex
+	flex-direction row
+	flex-wrap wrap
+	border  red
+	padding-bottom 50px
+	
+	+below($mobile)
+		flex-direction column
+		-webkit-align-items center 
+		align-items center 
+	  	
+		
+
+.box
+	width 50%
+	margin-bottom 48px
+	
+
+	+below($mobile)
+		width 100%    
+	
